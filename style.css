@@ -153,25 +153,37 @@ body{
 }
 
 #hero{
-    background-image: url("clothes/web back1.jpg");
+    background-image: url("clothes/background/background\ 2.jpg");
     height: 90vh;
     min-width: 458px;
     background-size: cover;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-bottom: 20px;
-    z-index: -1;
+}
+
+#hero .text{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: absolute;
+    text-align: left;
+    margin-left: 60px;
+    top: 50%;
+    transform: translateY(-10%);
 }
 
 #hero h4{
     padding-bottom: 15px;
+    font-size: 30px;
+    font-family: Georgia;
 }
 #hero h1{
     color: black;
-    
+}
+
+#hero p{
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Georgia;
 }
 #hero button{
     background-color: rgba(21, 122, 238, 0.151);
@@ -444,6 +456,12 @@ body{
     font-weight: 800;
 }
 
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 
+}
 
 
