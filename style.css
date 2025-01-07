@@ -110,9 +110,8 @@ body{
 #hero{
     background-image: url("clothes/web back1.jpg");
     height: 90vh;
-    width: 100%;
+    min-width: 458px;
     background-size: cover;
-    background-position: top 30% right 0;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -205,9 +204,10 @@ body{
 
 .img{
     position: absolute;
+    min-width: 344px;
+    
     left: 60%;
     bottom: 3%;
-    z-index: 1;
 }
 
 #product1 {
