@@ -120,16 +120,6 @@ body{
     
 }
 
-#navbar li a:hover{
-    height: 5px;
-    width: 30px;
-    border-radius: 30px;
-    background: #eb700c;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    transition: 0.5s;
-}
 #navbar li a:hover,
 #navbar li a.active{
     color: #f3b406;
@@ -327,15 +317,18 @@ body{
     font-weight: 700;
     color: #088178;
 }
-#product1 .pro .cart{
+#product1 .pro .dog{
     width: 40px;
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
-    background: #e8f6e8;
+    background: #1bd5db;
     font-weight: 500;
-    color: #bdbbbb;
-    border: 1px solid;
+    color: #c3d423;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.281);
+    border: 1px solid #20027434;
+    position: absolute;
+    bottom: 20px;
     right: 10px;
 
 }
@@ -445,14 +438,14 @@ body{
 }
 #banner3 h2{
     color: #fff;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 900;
 }
 
 
 #banner3 h3{
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 800;
 }
 
@@ -461,7 +454,156 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    background-image: url("clothes/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #0e0241;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span{
+    color: #cef107;
+}
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    outline: none;
+    font-family: Georgia;
+    margin-right: 10px;
+    border-top-right-radius: 0;
 
 }
 
+#newsletter .but{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: Georgia;
+    background-color: #260379;
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition:  0.6s ease;
+}
+button.but:hover{ 
+    transform: translateY(15px);
+}
 
+#newsletter button{
+    background-color: #71a7ec;
+    color: #fff;
+    white-space: nowrap;
+    border-left: none;
+    border-top-left-radius: 0;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #606063;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #0404eb;
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+footer .install img{
+    margin: 10px 2px 15px 2px;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #0e0241;
+    transform: translateY(4px);
+}
+
+footer .copyright{
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.07);
+        padding: 80px 0 0 10px;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+}
