@@ -153,114 +153,35 @@ body{
 }
 
 #hero{
-    background-image: url("clothes/background/background\ 2.jpg");
-    height: 90vh;
+    background-image: url("clothes/banner/b1.jpg ");
+    height: 30vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
     padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 
 }
-
-
-#hero h4{
-    padding-bottom: 15px;
-    font-size: 30px;
-    font-family: Georgia;
+#hero .text{
+    text-align: center;
+    padding-top: 50px;
 }
 #hero h1{
-    color: black;
+    color: #ffffff;
+    align-items: center;
 }
 
 #hero p{
     font-size: 15px;
     font-weight: 900;
     font-family: Georgia;
-}
-#hero button{
-    background-color: rgba(21, 122, 238, 0.151);
-    color: rgb(163, 238, 238);
-    border: 0;
-    border-radius: 25px;
-    padding: 14px 80px 14px 65px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 15px;
-    backdrop-filter: blur(10px);
+    color: #fff;
 }
 
-#hero button:hover{
-    transform: translateY(5px);
-}
 
-#feature {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
-#feature .fe-box {
-    width: 180px;
-    text-align: center;
-    padding: 25px 15px;
-    box-shadow: 10px 0 5px rgba(0, 0, 0, 0.07);
-    border: 1px solid #dadbdb; 
-    border-radius: 25px;
-    margin: 15px 0;
-    
-}
 
-#feature .fe-box:hover{
-    box-shadow: 10px 0 5px rgba(0, 0, 0, 0.25);
-    transform: translateY(10px);
-
-}
-
-#feature .fe-box img{
-    width: 100%;
-    margin-bottom: 10px;
-}
-#feature .fe-box h6{
-    display: inline-block;
-    padding: 9px 25px 6px 25px;
-    line-height: 1;
-    border-radius: 25px;
-    color: black;
-    background-color: aqua;
-}
-
-#feature .fe-box:nth-child(2) h6{
-    background-color: #eb700c;
-}
-
-#feature .fe-box:nth-child(3) h6{
-    background-color: #f3b406;
-}
-
-#feature .fe-box:nth-child(4) h6{
-    background-color: #10e468;
-}
-
-#feature .fe-box:nth-child(5) h6{
-    background-color: #ff993394;
-}   
-
-#feature .fe-box:nth-child(6) h6{
-    background-color: #4f0ceb;
-}
-
-.img{
-    position: absolute;
-    min-width: 344px;
-    left: 60%;
-    bottom: -8%;
-}
 
 #product1 {
     text-align: center;
@@ -339,121 +260,6 @@ body{
 
 }
 
-#banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url("clothes/background/background 1.jpg");
-    width: 100%;
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
-}
-
-#banner h4{
-    color: #cbcece;
-    font-size: 16px;
-}
-
-#banner h2{
-    color: #cbcece;
-    font-size: 50px;
-    padding: 10px 0;
-}
-
-#banner h2 span{
-    color: #0e0241;
-    font-size: 50px;
-    padding: 10px 0;
-}
-
-#banner button:hover{
-    background-color: #0e0241;
-    color: white;
-    transform: translateY(5px);
-}
-#sm-banner {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-#sm-banner .banner-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-image: url("clothes/banner/b17.jpg");
-    min-width: 580px;
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
-    padding: 30px;
-
-}
-#sm-banner .banner-box2 {
-    background-image: url("clothes/banner/b10.jpg");
-}
-
-#sm-banner h4{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-#sm-banner h2{
-    color: #fff;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-#sm-banner span{
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    padding-bottom: 15px;
-}
-#banner3 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0 80px;
-}
-#banner3 .banner-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-image: url("clothes/banner/b7.jpg");
-    min-width: 30%;
-    height: 30vh;
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-#banner3 .banner-box2{
-    background-image: url("clothes/banner/b4.jpg");
-}
-
-#banner3 .banner-box3{
-    background-image: url("clothes/banner/b18.jpg");
-}
-#banner3 h2{
-    color: #fff;
-    font-size: 22px;
-    font-weight: 900;
-}
-
-
-#banner3 h3{
-    color: #fff;
-    font-size: 15px;
-    font-weight: 800;
-}
 
 #newsletter{
     display: flex;
@@ -650,7 +456,7 @@ footer .copyright{
     }
 
     #hero {
-        height: 70vh;
+        height: 30vh;
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
