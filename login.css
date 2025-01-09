@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Georgia;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.973)20%,rgb(4, 39, 71)70%) ;
+    background-size: cover;
+    height: 100vh;
+}
+
+.form{
+    width: 250px;
+    height: 330px;
+    background: linear-gradient(to top, rgba(8, 1, 1, 0.973)20%,rgba(85, 18, 18, 0.945)50%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 35px;
+    padding: 40px 25px;
+}
+
+
+.form h2{
+    width: 220px;
+    font-family: Georgia;
+    text-align: center;
+    color: #0f97f1;
+    font-size: 22px;
+    background-color: #f7f6f3;
+    border-radius: 25px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 250px;
+    height: 35px;
+    background: transparent;
+    border-radius: 10px;
+    border-bottom: 2px solid #0f97f1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Georgia;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Georgia;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0f97f1;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: #0f97f1;
+}
+
+.btnn a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.form .link{
+    font-family: Georgia;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #0f97f1;
+}
+.liw{
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+}
