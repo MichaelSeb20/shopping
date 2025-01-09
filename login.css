@@ -5,7 +5,7 @@
 }
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.973)20%,rgb(4, 39, 71)70%) ;
+    background: linear-gradient(to top, rgba(233, 231, 116, 0.973),rgb(110, 110, 110)) ;
     background-size: cover;
     height: 100vh;
 }
@@ -13,7 +13,9 @@
 .form{
     width: 250px;
     height: 330px;
-    background: linear-gradient(to top, rgba(8, 1, 1, 0.973)20%,rgba(85, 18, 18, 0.945)50%);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
     position: relative;
     top: 50%;
     left: 50%;
